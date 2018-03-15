@@ -1,0 +1,9 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+app_hello_world:
+    path: /hello/world
+    controller: App\Controller\HelloWorldController::hello
+app_home:
+  path: /
+  controller: App\Controller\MainController::homeAction
